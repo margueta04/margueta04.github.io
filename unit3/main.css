@@ -14,8 +14,8 @@ h1{
 	font-family: "Goudy Old Style", Garamond, "Times New Roman", serif;
 }
 h3{
-	font-family: "Avant Garde", "Century Gothic", Helvetica, sans-serif;
 	text-transform: uppercase;
+	font-weight: 100;
 }
 
 a{
@@ -36,9 +36,10 @@ ul li{
 }
 
 #name{
+	font-family: 'Playfair Display', serif;
 	text-align: center;
-	font-size: 45px;
-	font-weight: 100;
+	font-size: 40px;
+	font-weight: bold;
 	/*border-style: solid;
 	border-width: 4px;
 	width: 450px;*/
