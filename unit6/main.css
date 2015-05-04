@@ -1,0 +1,37 @@
+body{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: right;
+	color: #5F6E68;
+
+}
+
+h1{
+	text-transform: uppercase;
+	color: #000;
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h3{
+	font-size: 1em;
+}
+
+p{
+	font-weight: 100;
+}
+
+#wrapper{
+	float: right;
+	padding: 5px;
+	margin: 0 10px;
+	width: 70%;
+}
+
+.workimage{
+	margin: 5px 0;
+	background-color: #78FF81;
+}
