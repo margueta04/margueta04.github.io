@@ -3,6 +3,7 @@ body{
 	font-size: 16px;
 	text-align: right;
 	color: #5F6E68;
+	line-height: 1em;
 
 }
 
@@ -10,7 +11,7 @@ h1{
 	text-transform: uppercase;
 	color: #000;
 	font-size: 2em;
-	background-color: #FFE7E3;
+	/*background-color: #FFE7E3;*/
 }
 
 h2{
@@ -23,21 +24,19 @@ h3{
 
 h1, h2, h3{
 	font-weight: bold;
-	padding: 5px;
-	margin: 5px;
+	line-height: 1em;
+	margin: 5px 0;
 }
 
 p{
 	font-weight: 100;
-	background-color: #B5FFF3;
+	margin: 5px 0;
+	/*background-color: #B5FFF3;*/
 }
 
 a{
 	text-decoration: none;
 	display: block;
-	float: left;
-	padding: 5px;
-	width: 20%;
 }
 
 a:link, a:visited {
@@ -48,16 +47,40 @@ a:hover {
 }
 
 img{
-	padding: 5px;
-	margin: 5px;
-	background-color: #7CAECC;
+	margin: 5px 0;
+	/*background-color: #7CAECC;*/
 }
 
 aside{
 	position:fixed;
-	background-color: #aaaaaa;
+	background-color: #000000;
 	height: 100%;
 	width: 25%;
+}
+nav{
+	position: absolute;
+	top: 5%;
+	height: 20px;
+	line-height: 1.5em;
+  	font-size: 1.5em;
+}
+
+nav>a{
+	width: 100%;
+	text-align: left;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+#contact{
+	position: absolute;
+	bottom: 5%;
+	height: 20px;
+	width: 100%;
+	margin-left: 10px;
+	text-align: left;
+	line-height: 1.5em;
+
 }
 
 .clearfix:after{
@@ -73,10 +96,10 @@ aside{
 	float: right;
 	padding: 5px;
 	margin: 0 10px;
-	width: 75%;
+	width: 70%;
 }
 
 .workimage{
 	margin: 5px 0;
-	background-color: #78FF81;
+	/*background-color: #78FF81;*/
 }
