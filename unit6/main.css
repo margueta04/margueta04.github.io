@@ -102,6 +102,14 @@ nav>a{
 	width: 70%;
 }
 
+header{
+	margin: 20px 0;
+}
+
+.para{
+	margin: 5px 0;
+}
+
 .workimage{
 	margin: 5px 0;
 	/*background-color: #78FF81;*/
