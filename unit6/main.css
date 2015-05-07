@@ -61,8 +61,7 @@ nav{
 	position: absolute;
 	top: 5%;
 	height: 20px;
-	line-height: 1.5em;
-  	font-size: 1.5em;
+	
 }
 
 nav>a{
@@ -70,6 +69,10 @@ nav>a{
 	text-align: left;
 	margin-left: 10px;
 	text-transform: uppercase;
+	line-height: 1.5em;
+  	font-size: 1.5em;
+  	font-weight: 100;
+
 }
 
 #contact{
@@ -80,6 +83,7 @@ nav>a{
 	margin-left: 10px;
 	text-align: left;
 	line-height: 1.5em;
+	font-weight: 100;
 
 }
 
