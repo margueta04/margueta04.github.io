@@ -1,8 +1,16 @@
+html{
+	width: 100%;
+	height: 100%; /*fills screen*/
+}
+
 body{
 	font-size: 18px;
 	font-family: helvetica, sans-serif;
 	font-weight: 100;
 	color: #D92D37;
+	width: 100%;
+	height: 100%;
+	margin: 0;
 }
 a{
 	text-decoration: none;
@@ -12,15 +20,23 @@ h1, h2, h3{
 	font-family: "Times New Roman", serif;
 }
 
+#Marielisa{
+	margin: 0;
+	padding: 40px 0;
+}
+
 #home{
 	background: url(images/LA.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
+	width: 100%;
+	height: 100%;
 	text-align: center;
 	color: #D92D37;
+	position: relative;
+	overflow: auto;
 }
 
 #Marielisa{
@@ -36,7 +52,8 @@ h1, h2, h3{
 }
 #homewrapper{
 	width: 90%;
-	margin: auto;
+	height: 90%;
+	margin: 3% auto 7%;
 	background-color: rgba(255,255,255,0.3);
 	padding: auto;
 }
@@ -47,17 +64,18 @@ h1, h2, h3{
 	}
 }*/
 
-@media screen only and (max-width: 480px) { /*iPhone landscape*/
+@media screen and (max-width: 480px) { /*iPhone landscape*/
 	body{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	#Marielisa{
 		font-size: 3em;
+		color: blue;
 	}
 }
 
-@media screen only and (max-width: 320px) { /*iPhone portrait*/
+@media screen and (max-width: 320px) { /*iPhone portrait*/
 	body{
-		font-size: 12px;
+		font-size: 16px;
 	}
 }
